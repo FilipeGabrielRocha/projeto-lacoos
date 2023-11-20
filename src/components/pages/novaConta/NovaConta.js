@@ -6,7 +6,7 @@ import './NovaContaModule.css'
 
 export default function NovaConta() {
   return (
-    <div classname="body-conta-nova">
+    <div className="body-conta-nova">
       <header className="header_logo_nova_conta">
         <Link to="/">
           <img src={Logo} alt="Logo aliança" />

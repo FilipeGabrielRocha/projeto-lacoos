@@ -2,6 +2,7 @@ import "./navbarModule.css";
 
 import LogoReduzida from '../../img/navbar/logo-reduzida.svg'
 import FotoPerfil from '../../img/navbar/foto-perfil.svg'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -20,40 +21,40 @@ export default function Navbar() {
               <img className="logo-reduzida" src={LogoReduzida} alt=""/>
             </li>
             <li>
-              <a className="logar item" href="pages/perfil.html">
+              <Link className="logar item" to={"/perfil"}>
                 <img className="user" src={FotoPerfil} alt="" />
                 <span>Maria do Nascimento</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="item" href="#">
+              <Link className="item" to={"/"}>
                 Início
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="item" href="pages/pacotes.html">
+              <Link className="item" to={"/"}>
                 Pacotes
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="item" href="#">
+              <Link className="item" to={"/"}>
                 Convites
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="item" href="pages/sobre.html">
+              <Link className="item" to={"/"}>
                 Sobre nós
-              </a>
+              </Link>
             </li>
             <li>
-              <a id="modo-daltonismo" className="item" href="#">
+              <Link id="modo-daltonismo" className="item" to={"/"}>
                 Modo Daltonismo
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="item" href="#">
+              <Link className="item" to={"/"}>
                 Desconectar
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

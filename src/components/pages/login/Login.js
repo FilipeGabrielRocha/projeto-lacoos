@@ -21,11 +21,11 @@ export default function Login() {
           <h2 className="title_form">LOGIN</h2>
           <label className="label_login">
             E-mail
-            <Input type={"email"} placeholder={"exemplo.sac@xxxx.com"} name={"email_usuario"} />
+            <Input className={"input-login"} type={"email"} placeholder={"exemplo.sac@xxxx.com"} name={"email_usuario"} />
           </label>
           <label className="label_login">
             Senha
-            <Input type={"password"} placeholder={"Digite sua senha"} name={"senha_usuario"} />
+            <Input className={"input-login"} type={"password"} placeholder={"Digite sua senha"} name={"senha_usuario"} />
           </label>
           <p>
             <Link to={"/recuperacao-senha"} className="link_login_password">

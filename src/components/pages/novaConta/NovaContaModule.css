@@ -2,6 +2,7 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
 
     background-image: url("../../../img/contaNova/backgroun.jpg");
     background-size: cover;
@@ -29,7 +30,7 @@
 .form-conta-nova{
     display: flex;
     padding: 30px;
-    background-color: #fff;
+    background-color: #ffffff;
     width: 90%;
     flex-direction: column;
     border-radius: 20px;
@@ -40,13 +41,13 @@
     display: flex;
 }
 
-.title_forms{
+.title_forms h3{
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    font-size: 1.5rem;
+    font-size: 4rem;
     color: #658955;
 }
 
@@ -173,7 +174,6 @@
 .title_termos{
     margin-top: 25px;
     margin-bottom: 5px;
-    font-family: 'Poppins', sans-serif;
     color: #658955;
     font-size: 2rem;
 }

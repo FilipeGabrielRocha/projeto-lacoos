@@ -9,7 +9,6 @@ import ImagemTexto3 from "../../../img/home/imagem-texto-3.jpg";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import Navbar from "../../navbar/Navbar";
-import Botao from "../../botao/Botao";
 import PlanoCasamento from "../../planoCasamento/PlanoCasamento";
 
 export default function Home() {
@@ -28,7 +27,7 @@ export default function Home() {
               site para
               <br />
               planejar
-              <span className="css-titulo">seu</span>
+              <span className="css-titulo"> seu</span>
               <br />
               <span className="css-titulo">casamento</span>
             </h1>
